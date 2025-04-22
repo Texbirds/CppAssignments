@@ -1,20 +1,28 @@
-// 1.1_SearchACharacter.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
+#include <string>
+
+bool search(std::string& s, char& key);
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    //define variables
+    std::string sentence;
+    char letter;
+
+    // obtain values from user
+    std::cout << "Type a sentence\n";
+    std::getline(std::cin, sentence);
+    std::cout << "Type what letter you want to check for\n";
+    std::cin >> letter;
+
+    if (search(sentence, letter)) {
+        std::cout << "The letter was found in the sentence";
+    } else {
+        std::cout << "The letter was NOT found in the sentence";
+    }
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+bool search(std::string& s, char& key)
+{
+    return s.find(key) != std::string::npos;
+}
