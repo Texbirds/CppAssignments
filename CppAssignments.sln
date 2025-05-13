@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.1_Stopwatch", "Week2\2.1_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.2_FindGenes", "Week2\2.2_FindGenes\2.2_FindGenes.vcxproj", "{B1ABC6D6-525A-40EC-A6F1-E38700EA7D76}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.3_CheckPalindrome", "Week2\2.3_CheckPalindrome\2.3_CheckPalindrome.vcxproj", "{0B52F8F3-9F44-479C-823C-6259BD42E06B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -75,6 +77,14 @@ Global
 		{B1ABC6D6-525A-40EC-A6F1-E38700EA7D76}.Release|x64.Build.0 = Release|x64
 		{B1ABC6D6-525A-40EC-A6F1-E38700EA7D76}.Release|x86.ActiveCfg = Release|Win32
 		{B1ABC6D6-525A-40EC-A6F1-E38700EA7D76}.Release|x86.Build.0 = Release|Win32
+		{0B52F8F3-9F44-479C-823C-6259BD42E06B}.Debug|x64.ActiveCfg = Debug|x64
+		{0B52F8F3-9F44-479C-823C-6259BD42E06B}.Debug|x64.Build.0 = Debug|x64
+		{0B52F8F3-9F44-479C-823C-6259BD42E06B}.Debug|x86.ActiveCfg = Debug|Win32
+		{0B52F8F3-9F44-479C-823C-6259BD42E06B}.Debug|x86.Build.0 = Debug|Win32
+		{0B52F8F3-9F44-479C-823C-6259BD42E06B}.Release|x64.ActiveCfg = Release|x64
+		{0B52F8F3-9F44-479C-823C-6259BD42E06B}.Release|x64.Build.0 = Release|x64
+		{0B52F8F3-9F44-479C-823C-6259BD42E06B}.Release|x86.ActiveCfg = Release|Win32
+		{0B52F8F3-9F44-479C-823C-6259BD42E06B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,6 +96,7 @@ Global
 		{B9AA5520-1CED-4E98-A70D-9EDD9C5CABE9} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{132F9414-986A-430B-91EF-5C181DAD165D} = {76BFCF38-174D-4FA8-B363-6CE414210E34}
 		{B1ABC6D6-525A-40EC-A6F1-E38700EA7D76} = {76BFCF38-174D-4FA8-B363-6CE414210E34}
+		{0B52F8F3-9F44-479C-823C-6259BD42E06B} = {76BFCF38-174D-4FA8-B363-6CE414210E34}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2E3E905D-68E3-43F1-BB8D-92A2957E6FF0}
