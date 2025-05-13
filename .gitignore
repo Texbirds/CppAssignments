@@ -14,6 +14,19 @@
 *.app
 *.pdb
 
+# Ignore Visual Studio build folders
+**/Debug/
+**/Release/
+x64/
+*.idb
+*.tlog
+*.obj
+*.ipch
+*.pch
+*.pdb
+*.log
+
+
 # ========================================
 # Build Output Folders
 # ========================================
