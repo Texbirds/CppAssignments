@@ -23,7 +23,6 @@ int main()
     }
 }
  
-// test
 bool search(std::string& s, char& key)
 {
     return s.find(key) != std::string::npos;
