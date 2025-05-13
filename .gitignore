@@ -1,0 +1,60 @@
+# Build output folders
+/build/
+/out/
+/bin/
+/obj/
+/dist/
+
+# VS Code settings (optional to ignore)
+.vscode/
+
+# CMake build files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Compiled object files
+*.o
+*.obj
+
+# Compiled binary files
+*.exe
+*.out
+*.app
+
+# Static/Shared libraries
+*.lib
+*.a
+*.la
+*.lo
+*.so
+*.dll
+*.dylib
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Debug and profiling
+*.gcno
+*.gcda
+*.gcov
+*.pdb
+
+# Editor and system junk
+*~
+*.swp
+.DS_Store
+Thumbs.db
+
+# CLion or JetBrains IDEs
+.idea/
+
+# Backup files
+*.bak
+*.old
+
+# Test output
+/test-results/
+*.test.*
