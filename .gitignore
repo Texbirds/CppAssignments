@@ -1,60 +1,55 @@
-# Build output folders
+# ========================================
+# General C++ Build Artifacts
+# ========================================
+*.o
+*.obj
+*.lo
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.app
+*.pdb
+
+# ========================================
+# Build Output Folders
+# ========================================
 /build/
 /out/
 /bin/
 /obj/
 /dist/
 
-# VS Code settings (optional to ignore)
+# ========================================
+# IDE / Editor Config Files
+# ========================================
+
+# Visual Studio Code
 .vscode/
 
-# CMake build files
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.vcxproj.user
+*.VC.db
+*.VC.db-shm
+*.VC.db-wal
 
-# Compiled object files
-*.o
-*.obj
+# JetBrains IDEs (like CLion, if ever used)
+.idea/
 
-# Compiled binary files
-*.exe
-*.out
-*.app
-
-# Static/Shared libraries
-*.lib
-*.a
-*.la
-*.lo
-*.so
-*.dll
-*.dylib
-
-# Logs and temporary files
+# ========================================
+# System Junk / Temp Files
+# ========================================
 *.log
 *.tmp
-
-# Debug and profiling
-*.gcno
-*.gcda
-*.gcov
-*.pdb
-
-# Editor and system junk
+*.bak
+*.old
 *~
 *.swp
 .DS_Store
 Thumbs.db
-
-# CLion or JetBrains IDEs
-.idea/
-
-# Backup files
-*.bak
-*.old
-
-# Test output
-/test-results/
-*.test.*
