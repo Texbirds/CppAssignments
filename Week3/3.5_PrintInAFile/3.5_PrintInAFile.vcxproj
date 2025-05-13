@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{8f91f59b-db0b-4105-876a-4a6c0dd7a3b2}</ProjectGuid>
+    <ProjectGuid>{9d5ee3c6-ef28-4308-9baa-694f2cbdb9e0}</ProjectGuid>
     <RootNamespace>My35PrintInAFile</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
